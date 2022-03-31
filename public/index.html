@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    </link>
+
+    <title>Drawing App</title>
+</head>
+
+<body>
+
+    <!-- Title -->
+    <h1>Drawing App</h1>
+
+
+    <header class="header">
+
+        <!-- Name Board -->
+        <div class="header__name-board">
+            <ul id="name-board">
+            </ul>
+        </div>
+
+        <!-- Name Input -->
+        <div class="header__name-input">
+            <input class="input-area" type="text" id="name-input" placeholder="Enter name">
+            <button class="button-8" id="send-button">Send</button>
+        </div>
+    </header>
+
+    <!-- Erase and Draw Section -->
+    <section class="tool">
+        <button class="tool__erase button-8" id="eraser">Erase</button>
+        <button class="tool__draw button-8" id="crayon">Draw</button>
+    </section>
+
+
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+</body>
+
+</html>
