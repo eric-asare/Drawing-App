@@ -15,16 +15,7 @@ The following are the useful UX decisions to enhance the overall experience.
 4. A name board which shows all connected users and their crayon color.A name board for easy identification, we know exactly who is drawing what
 
 5. Shared Drawing Progress which ensures all connected users see the drawing progress regardless of when they joined so that connected users do not have to draw in isolation if they join late. 
-
-
-## Working Link
-  [Wireframe](https://eric-asare.github.io/ConnectionsLab/week8/design/wireframe.png)
          
-## Technical Requirements
-
-At least one ‘emit’ event on the server-side and one ‘emit’ event on the client-side
-The ability to open 2 browser tabs and share data in real-time between the two NOTE : Upload the code to glitch and submit the glitch link along with documentation 
-
 
 ## Production
   * ### SERVER - CLIENT FLOW
@@ -46,9 +37,7 @@ The ability to open 2 browser tabs and share data in real-time between the two N
    * It takes time to understand concepts and code so leave more time for that
   
       
-
 ## Lessons
-  * Wireframes indeed make life easy. 
   * Sockets will be more understandable with practice
   * Glitch, great platform to host and share projects
   * You can change the image of your cursor. 
