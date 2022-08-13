@@ -1,8 +1,8 @@
-#  Socket.io Node-Express App Documentation 
+#  Drawing App
 
 ## Description
 
-a Node-Express Drawing app that incorporates Socket.io. This webpage allow users to connect and draw in real time.
+a *Node-Express* Drawing app that incorporates Socket.io. This webpage allow users to connect and draw in real time.
 
 The following are the useful UX decisions to enhance the overall experience. 
 
@@ -27,10 +27,6 @@ The ability to open 2 browser tabs and share data in real-time between the two N
 
 
 ## Production
-
-  * ### The WireFrame
-       ![Wireframe](https://eric-asare.github.io/ConnectionsLab/week8/design/wireframe.png)
-         
   * ### SERVER - CLIENT FLOW
         1. Get input from the user using click 
         2. From the client-side, you emit the info to the server
